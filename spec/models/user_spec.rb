@@ -27,6 +27,9 @@ RSpec.describe User, type: :model do
       @user = User.create(:email => 'nhoszko@gmail.com', :first_name => 'Nick', :last_name => 'Hoszko', :password_digest => "something")
     end
   end
+
+  
   describe '.authenticate_with_credentials' do
+
   end
 end
